@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    
+    display: block;
+}
+
+body {
+    background-image: url(backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: aliceblue;
+}
+
+h3 {
+    color: antiquewhite;
+}
+
+ul li {
+    color: antiquewhite;
+}
+
+
+
+@media (min-width: 576px) { 
+    .main-container {
+       display: flex;
+       
+    }
+}
+
+
+@media (min-width: 768px) { 
+    .main-container {
+        display: flex;
+       
+     }
+}
+
+
+@media (min-width: 992px) { 
+    
+}
+
+
+@media (min-width: 1200px) { 
+   
+ }
+
+
+@media (min-width: 1400px) { 
+    
+}
+    
